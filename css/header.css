@@ -1,0 +1,29 @@
+header {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 56px;
+}
+
+.title-text {
+  color: #005bfe;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 21.6px;
+}
+
+.app-title {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.app-title img {
+  margin-right: 16px;
+}

@@ -1,0 +1,39 @@
+/* Стили для элементов контакта */
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 70px;
+  padding: 24px 0;
+}
+
+.contact-item:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contact-item:first-child {
+  padding-top: 0;
+}
+
+.contact-item:last-child {
+  padding-bottom: 0;
+}
+
+/* Стили для информации о контакте */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-name {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.contact-phone {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding-right: 24px;
+}

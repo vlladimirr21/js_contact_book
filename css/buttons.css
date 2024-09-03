@@ -1,0 +1,78 @@
+.header .buttons {
+  display: flex;
+}
+
+.btn-danger,
+.btn-primary {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 10px 14px;
+}
+
+.btn-primary {
+  margin: 0px;
+  margin-left: 16px;
+}
+
+.header .buttons .btn {
+  border-radius: 6px;
+}
+
+/* Стили для кнопок редактирования и удаления */
+.button-edit,
+.button-delete {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  width: 2rem;
+  height: 2rem;
+  font-size: 18px;
+}
+
+.button-delete {
+  margin-left: 8px;
+}
+
+.button-delete-group {
+  margin-right: 24px;
+}
+
+/* Стили для иконок в кнопках */
+.button-edit img {
+  filter: invert(50%);
+}
+
+.button-edit:hover {
+  background-color: #005bfe;
+}
+
+.button-edit:hover img {
+  filter: invert(0%);
+}
+
+.button-delete img {
+  filter: invert(50%);
+}
+
+.button-delete:hover {
+  background-color: #f81155;
+}
+
+.button-delete:hover img {
+  filter: invert(0%); /* Белая иконка */
+}
+
+/* Адаптивные стили для кнопок */
+@media (max-width: 600px) {
+  .button-edit,
+  .button-delete {
+    width: 1.875rem; /* Уменьшаем ширину кнопки на небольших экранах */
+    height: 1.875rem; /* Уменьшаем высоту кнопки на небольших экранах */
+  }
+}

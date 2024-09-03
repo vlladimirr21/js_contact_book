@@ -1,0 +1,15 @@
+#groupsList .group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+#groupsList .group-item input {
+  flex-grow: 1;
+  margin-right: 12px;
+  padding-left: 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.05);
+}

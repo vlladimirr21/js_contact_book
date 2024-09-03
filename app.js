@@ -49,6 +49,15 @@ function setupEventListeners() {
   document
     .getElementById('saveGroupsBtn')
     .addEventListener('click', handleSaveGroupClick)
+
+  // Validate
+  document
+    .getElementById('fullName')
+    .addEventListener('input', validateFullName)
+
+  document
+    .getElementById('phoneNumber')
+    .addEventListener('input', validatePhoneNumber)
 }
 
 // Groups Management
@@ -271,6 +280,12 @@ function saveContact() {
   const phoneNumber =
     document.getElementById('phoneNumber').value || '+7 (ХХХ) ХХХ - ХХ - ХХ'
   const group = document.getElementById('groupSelect').value
+
+  // Validate
+  // if (fullName === '' || phoneNumber === '' || phoneNumber.length !== 11) {
+  //   alert('Пожалуйста, введите корректные данные.')
+  //   return
+  // }
 
   if (currentContact !== null) {
     contacts[currentContact] = { fullName, phoneNumber, group }

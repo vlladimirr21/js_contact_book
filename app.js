@@ -60,7 +60,7 @@ function handleAddGroupClick() {
     const newGroupItem = document.createElement('div')
     newGroupItem.className = 'group-item'
     newGroupItem.innerHTML = `
-        <input type="text" placeholder="Введите название группы" id="newGroupNameInput" />
+        <input type="text" placeholder="Введите название" id="newGroupNameInput" />
         <button class="btn button-delete button-delete-group" onclick="removeNewGroupInput()">
             <img src="img/delete_button.svg" alt="Delete button" />
         </button>

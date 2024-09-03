@@ -1,4 +1,3 @@
-/* Стили для элементов контакта */
 .contact-item {
   display: flex;
   justify-content: space-between;
@@ -19,7 +18,6 @@
   padding-bottom: 0;
 }
 
-/* Стили для информации о контакте */
 .contact-info {
   display: flex;
   flex-direction: column;

@@ -16,7 +16,6 @@
   line-height: 21.6px;
 }
 
-/* Адаптивные стили для аккордеонов и модальных окон */
 @media (max-width: 1200px) {
   .accordion-item {
     width: 90%;

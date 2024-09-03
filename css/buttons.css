@@ -15,11 +15,24 @@
   margin-left: 16px;
 }
 
+.btn-add-group {
+  color: #005bfe;
+  background-color: transparent;
+  border: none;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+.btn-add-group :hover {
+  background-color: rgba(0, 89, 254, 0.1);
+  color: #005bfe;
+}
+
 .header .buttons .btn {
   border-radius: 6px;
 }
 
-/* Стили для кнопок редактирования и удаления */
 .button-edit,
 .button-delete {
   display: inline-flex;
@@ -43,7 +56,6 @@
   margin-right: 24px;
 }
 
-/* Стили для иконок в кнопках */
 .button-edit img {
   filter: invert(50%);
 }
@@ -65,14 +77,13 @@
 }
 
 .button-delete:hover img {
-  filter: invert(0%); /* Белая иконка */
+  filter: invert(0%);
 }
 
-/* Адаптивные стили для кнопок */
 @media (max-width: 600px) {
   .button-edit,
   .button-delete {
-    width: 1.875rem; /* Уменьшаем ширину кнопки на небольших экранах */
-    height: 1.875rem; /* Уменьшаем высоту кнопки на небольших экранах */
+    width: 1.875rem;
+    height: 1.875rem;
   }
 }

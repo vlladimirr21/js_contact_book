@@ -2,6 +2,15 @@
   padding: 24px;
 }
 
+.accordion-button {
+  color: #000000;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #005bfe;
+  background-color: transparent;
+}
+
 .accordion-item {
   width: 100%;
   max-width: 1160px;
